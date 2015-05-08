@@ -1,0 +1,94 @@
+body{
+	background-color:#72F1FC;
+	font-family:'Courier New';
+	font-size:16pt;
+}
+img{
+	height:80px;
+}
+.WrapPicture{
+	height: 100px;
+	float:right;
+	margin:10px 10px 10px 10px;
+
+}
+.buttonDiv{
+	margin: 10px 10px 10px 10px;
+	font-size:14px;
+	height:100px;
+	width:150px;
+	float:left;
+	text-align: center;
+	line-height: 50px;
+	background-color: #3C7;
+}
+.footer{
+	clear:both;
+}
+
+nav{
+	clear:both;
+	width:350px;
+	height:100px;
+}
+nav div{
+	margin-right:5px;
+	margin-left:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:solid 1px #eee;
+	width:21%;
+	height:80%;
+	float:left;
+
+}
+p{
+	color:#475B5A;
+	font-size:12pt;
+	font-family:futura;
+}
+h1{
+	font-family:impact;
+
+	color:#475B5A;
+}
+h2{
+	color:#475B5A;
+}
+a:link{
+	color:#8D4E4E;
+}
+a:visited{
+	color:#53595A;
+}
+a:hover{
+	color:#BB8B8F;
+}
+a:focus{
+	color:orange;
+}
+a:active{
+	color:yellow;
+}
+ul li{
+	width:200px;
+	height:40px;
+	vertical-align: middle;
+	text-align: center;
+}
+ol li{
+	color:#475B5A;
+	line-height: 60px;
+	margin:20px 20px 20px 20px;
+	width:300px;
+	height:60px;
+	background-color: rgba(0, 110, 50, .5);
+	vertical-align: middle;
+	text-align: center;
+}
+ol{
+	vertical-align: middle;
+}
+ol li:hover{
+	background-color:rgba(0,110,50,.7);
+}

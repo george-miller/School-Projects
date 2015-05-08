@@ -1,0 +1,21 @@
+body{
+	background-color:#a0a;
+	margin:50px;
+	font-family:serif;
+	font-size:16pt;
+}
+a:link{
+	color:blue;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:pink;
+}
+a:focus{
+	color:orange;
+}
+a:active{
+	color:yellow;
+}

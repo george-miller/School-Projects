@@ -1,0 +1,136 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialMT
+FamilyName:Arial
+StyleName:Regular
+MenuName:Arial
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Arial
+WritingScript:Roman
+OutlineFileName:\Arial.ttf
+DataFormat:sfntData
+FileLength:773236
+FileModTime:1410288808
+NameArray:0,Mac,4,Arial
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPS-BoldMT
+FamilyName:Courier New
+StyleName:Bold
+MenuName:Courier New
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Courier New Bold
+WritingScript:Roman
+OutlineFileName:\Courier New Bold.ttf
+DataFormat:sfntData
+FileLength:691796
+FileModTime:1410288811
+NameArray:0,Mac,4,Courier New Bold
+NameArray:0,Win,1,Courier New
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Georgia
+FamilyName:Georgia
+StyleName:Regular
+MenuName:Georgia
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Georgia
+WritingScript:Roman
+OutlineFileName:\Georgia.ttf
+DataFormat:sfntData
+FileLength:379588
+FileModTime:1410288812
+NameArray:0,Mac,4,Georgia
+NameArray:0,Win,1,Georgia
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:218640
+FileModTime:1427919587
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TamilMN
+FamilyName:Tamil MN
+StyleName:Regular
+MenuName:Tamil MN
+StyleBits:0
+WeightClass:250
+WidthClass:5
+AngleClass:0
+FullName:Tamil MN
+WritingScript:Roman
+OutlineFileName:\Tamil MN.ttc
+TTCOffset:32
+DataFormat:sfntData
+FileLength:400396
+FileModTime:1410290646
+NameArray:0,Mac,18,Tamil MN
+NameArray:0,Mac,4,Tamil MN
+NameArray:0,Win,1,Tamil MN
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TamilMN-Bold
+FamilyName:Tamil MN
+StyleName:Bold
+MenuName:Tamil MN
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Tamil MN Bold
+WritingScript:Roman
+OutlineFileName:\Tamil MN.ttc
+TTCOffset:348
+DataFormat:sfntData
+FileLength:400396
+FileModTime:1410290646
+NameArray:0,Mac,18,Tamil MN Bold
+NameArray:0,Mac,4,Tamil MN Bold
+NameArray:0,Win,1,Tamil MN
+%EndFont
+

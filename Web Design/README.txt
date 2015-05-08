@@ -1,0 +1,1 @@
+This public_html is the site that I created while taking the class: Intro to Web Design.  It includes many different assignments that I completed across the semester.  To see the website, download the source and open up the index.html from the root in your browser.  You can use links from the index.html to get to every other page.

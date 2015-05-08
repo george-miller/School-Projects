@@ -1,0 +1,26 @@
+body{
+	background-color:#090;
+	margin:50px;
+	font-family:Arial;
+	font-size:16pt;
+}
+
+p{
+	font-size:12pt;
+	font-family:futura;
+}
+a:link{
+	color:blue;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:pink;
+}
+a:focus{
+	color:orange;
+}
+a:active{
+	color:yellow;
+}

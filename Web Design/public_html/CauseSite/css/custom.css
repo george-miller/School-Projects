@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.carouselImg {
+  width: auto;
+  text-align:center;
+  height: 400px;
+  max-height: 400px;
+  min-height: 400px;
+}
+.description{
+	font-size:20px;
+	color:purple;
+	font-weight:bold;
+}
