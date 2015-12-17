@@ -10,7 +10,7 @@ import java.util.Random;
  * @version October 12, 2014
  *
  */
-public class TestSort {
+public class MainTestSort {
 	
 
 	/**

@@ -54,7 +54,7 @@ public class ExpressionTools {
 			// if the character is a ')' add things off the stack to the output until we reach an '('
 			else if (next.equals(")")){
 				while(stack.getTop() != null){
-					if (stack.peek() != "("){
+					if (!stack.peek().equals("(")){
 						output += stack.pop() + " ";
 					}
 					else{

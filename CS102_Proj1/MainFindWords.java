@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @version September 25, 2014
  *
  */
-public class FindWords {
+public class MainFindWords {
 	/**
 	 * This method is the main method used for taking advantage of the method implemented in the 
 	 * LetterSet and Dictionary classes
@@ -20,6 +20,9 @@ public class FindWords {
 	 * This exception is thrown if the user enters too little or too many letters, or enters things that aren't letters
 	 */
 	public static void main(String[] args) throws IllegalArgumentException{
+		if (args.length < 1){
+			throw new IllegalArgumentException("You must specify a dictionary input file (In this repo it's dictionary_80000.txt)");
+		}
 		
 		// This block of code prompts the user and takes the input
 		Scanner in = new Scanner(System.in);

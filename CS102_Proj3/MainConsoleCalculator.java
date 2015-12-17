@@ -13,13 +13,17 @@ import java.util.Scanner;
  *  The second and third arguments are the names of the two output files that will become the solutions
  *  of the expressions using postfix and prefix notation respectively
  */
-public class ConsoleCalculator {
+public class MainConsoleCalculator {
 	public static void main(String [] args){
 		
 		File input = null;
 		File outputPostfix = null;
 		File outputPrefix = null;
 		// try to initialize the files with the arguments given
+		if (args.length < 3){
+			System.err.println("You must specify an input file and two output files (one for postfix and one for prefix)");
+			System.exit(1);
+		}
 		try{
 			input = new File(args[0]);
 			outputPostfix = new File(args[1]);
@@ -54,18 +58,19 @@ public class ConsoleCalculator {
 			String line = in.nextLine();
 			String postfixEx = ExpressionTools.infixToPostfix(line);
 			String prefixEx = ExpressionTools.infixToPrefix(line);
-			
+			System.out.println(postfixEx);
+
 			int resultPost = 0;
 			try{
 				resultPost = ExpressionTools.postfixCalculte(postfixEx);
 			}
-			catch (PostFixException e){postfix.println("INVALID");}
+			catch (PostFixException e){postfix.println("INVALID: " + e.getMessage());}
 			
 			int resultPre = 0;
 			try{
 				resultPre = ExpressionTools.prefixCalculate(prefixEx);
 			}
-			catch (PreFixException e){prefix.println("INVALID");}
+			catch (PreFixException e){prefix.println("INVALID: " + e.getMessage());}
 			
 			postfix.println(resultPost);
 			prefix.println(resultPre);

@@ -13,10 +13,9 @@ import java.util.Scanner;
  * The user is prompted for a set of letters and the program
  * produces all words that can be created from those letters.
  * 
- * @author Joanna Klukowska
  *
  */
-public class FindWords {
+public class MainFindWords {
 
 	/**
 	 * This method runs when the program starts. It validates the file name and 
