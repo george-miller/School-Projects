@@ -1,1 +1,1 @@
-All of the projects I developed for my classes at New York University.  In Java Projects, the file with "Main" in front of it's name is the file that contains the main function to be compiled and run.
+Some of the projects I developed for my classes at New York University.  In Java Projects, the file with "Main" in front of it's name is the file that contains the main function to be compiled and run.
